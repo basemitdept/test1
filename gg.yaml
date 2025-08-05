@@ -1,5 +1,5 @@
 - name: ggg
   hosts: all
   tasks:
-  - name: gggsdfvdfsvsfv
+  - name: alaraj-alaraj
     command: hostname
