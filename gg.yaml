@@ -1,5 +1,5 @@
 - name: ggg
   hosts: all
   tasks:
-  - name: ggg
+  - name: gggsdfvdfsvsfv
     command: hostname
