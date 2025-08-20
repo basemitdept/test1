@@ -1,5 +1,6 @@
 - name: ggg
   hosts: all
+  gather_facts: no
   tasks:
   - name: alaraj-alarajlekfhjlkwajehflkwhjef
-    command: echo basemalarajasdgsdgdg
+    command: echo alaraj
