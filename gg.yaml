@@ -3,4 +3,4 @@
   gather_facts: no
   tasks:
   - name: alaraj-alarajlekfhjlkwajehflkwhjef
-    command: echo alaraj
+    command: echo mohammed
