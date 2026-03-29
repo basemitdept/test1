@@ -2,5 +2,7 @@
   hosts: all
   gather_facts: no
   tasks:
-  - name: alaraj-alarajlekfhjlkwajehflkwhjef
-    command: echo mohammed
+  - name: test
+    command:  sleep 10
+  - name: test1
+    command: echo hi
