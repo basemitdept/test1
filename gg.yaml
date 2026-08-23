@@ -1,8 +1,12 @@
-- name: ggg
-  hosts: all
-  gather_facts: no
-  tasks:
-  - name: test
-    command:  sleep 10
-  - name: test666666
-    command: echo hi
+apiVersion: v1
+kind: Pod
+metadata:
+  name: nginx
+  labels:
+    app: nginx
+spec:
+  containers:
+    - name: nginx
+      image: nginx:latest
+      ports:
+        - containerPort: 80
